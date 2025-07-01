@@ -1,0 +1,11 @@
+[project]
+name = "aws-context-aware-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.39.0",
+    "langchain-aws>=0.2.27",
+    "langchain-community>=0.3.26",
+]
